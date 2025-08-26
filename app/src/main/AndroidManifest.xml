@@ -1,0 +1,27 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.dailyexpensetracker">
+
+    <application
+        android:name=".ExpenseApplication"
+        android:allowBackup="true"
+        android:label="Daily Expense Tracker"
+        android:icon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.DailyExpenseTracker">
+        <activity
+            android:name=".ui.ReportActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.AddExpenseActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>
