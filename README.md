@@ -21,5 +21,4 @@ A simple Android app to track daily expenses, built with Android Studio.
 
 ---
 
-👉 Do you want me to **make a full professional README** for your *Daily Expense Tracker* (with sections like Features, Screenshots, Tech Stack, Installation, and Future Improvements)? That way your GitHub repo will look polished.
 
